@@ -3,6 +3,7 @@
 <%@page import="br.com.fatec.controler.ControleImoInq"%>
 
 <%
+    
     int idInq = Integer.parseInt(request.getParameter("ID_INQ"));
     int idImo = Integer.parseInt(request.getParameter("ID_IMO"));
     String obs = request.getParameter("OBS");

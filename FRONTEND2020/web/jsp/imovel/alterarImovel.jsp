@@ -25,9 +25,9 @@
        <h1>ALTERAR IMOVEL</h1>
         <form name="alterarImovel" action="validaAlterarImovel.jsp" method="post">
             Nome do proprietario: <input type="text" name="NOME" value="<%=imo.getProprietario()%>"> <br>
+            Endereco: <input type="text" name="ENDERECO" value="<%=imo.getEndereco()%>"> <br>
+            Valor Aluguel: <input type="text" name="VALOR" value="<%=imo.getValorAluguel()%>"> <br>
             <input type="HIDDEN" name="ID" value="<%=imo.getId()%>"> <br>
-            <input type="HIDDEN" name="ENDERECO" value="<%=imo.getEndereco()%>"> <br>
-            <input type="HIDDEN" name="VALOR" value="<%=imo.getValorAluguel()%>"> <br>
             <input type="HIDDEN" name="PBUSCA" value="<%=pbusca%>"> <br>
             <input type="submit" name="Enviar" value="OK">
         </form>

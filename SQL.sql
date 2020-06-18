@@ -64,7 +64,7 @@ INSERT INTO `db2020`.`usuarios` (`id`, `nome`, `login`, `senha`, `status`, `tipo
 INSERT INTO `db2020`.`usuarios_pessoas` (`id`, `idPessoa`, `idUsuario`, `observacao`) VALUES ('1', '1', '1', 'TESTE BITTENCOURT');
 INSERT INTO `db2020`.`usuarios_pessoas` (`id`, `idPessoa`, `idUsuario`, `observacao`) VALUES ('2', '2', '2', 'TESTE LAIS');
 
-INSERT INTO `db2020`.`iq_imovel_inquilino` (`iq_id`,`iq_idImovel`,`iq_idInquilino`,`iq_obs`) VALUES ('1','1','1','TESTE DE RELACAO IMOVEL_INQUILINO');
+INSERT INTO `db2020`.`iq_imovel_inquilino` (`iq_id`,`iq_idImovel`,`iq_idInquilino`,`iq_obs`) VALUES ('1','1','1','RELACAO');
 
 SELECT
 	im.id "ID_IMV",

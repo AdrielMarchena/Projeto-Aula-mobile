@@ -5,7 +5,7 @@
 <%
     String nome = request.getParameter("NOME");
     String endereco = request.getParameter("ENDERECO");
-    String valor = request.getParameter("VALOR");
+    String valor = request.getParameter("VALOR").replace(",", ".");
     Imovel imo = new Imovel(0,endereco,nome,Double.parseDouble(valor));
     ControleImovel imoCont = new ControleImovel();
     imo = imoCont.inseriImovel(imo);

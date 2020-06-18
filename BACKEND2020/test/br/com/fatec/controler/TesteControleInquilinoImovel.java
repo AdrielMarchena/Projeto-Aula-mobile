@@ -43,7 +43,7 @@ public class TesteControleInquilinoImovel {
           InquilinoImovel inqImo = new InquilinoImovel(1,1,1,"TESTE RELACAO");
           ControleImoInq contInqImo = new ControleImoInq();
           inqImo = contInqImo.inserirInquilinoImovel(inqImo);
-          assertEquals(4, inqImo.getIdImoInq());
+          assertEquals("TESTE RELACAO", inqImo.getObs());
     }
 
     @Test
@@ -67,6 +67,6 @@ public class TesteControleInquilinoImovel {
           System.out.println("IMPRESSAO TESTE DE LISTA " + listaIM.get(0).toString());
 
 
-          assertEquals(1, listaIM.get(0).getIdImoInq());
+          assertEquals("RELACAO", listaIM.get(0).getObs());
     }
 }

@@ -18,9 +18,9 @@
     <body>
         <% if (!usu.getStatus().equals("")) { %>
             <!-- Dropdown1 Trigger -->
-            <a class='dropdown-button btn' data-beloworigin="true" href='#' data-activates='dropdown1'>Manter Controle de Usuario</a>        
-            <a class='dropdown-button btn' data-beloworigin="true" href='#' data-activates='dropdown2'>Manter Controle de Usuario & Pessoa</a>        
-            <a class='dropdown-button btn' data-beloworigin="true" href='#' data-activates='dropdown3'>Manter Controle de Pessoa</a>        
+             <a class='dropdown-button btn' data-beloworigin="true" href='#' data-activates='dropdown1'>Manter Controle de Usuario</a>     
+            <!-- <a class='dropdown-button btn' data-beloworigin="true" href='#' data-activates='dropdown2'>Manter Controle de Usuario & Pessoa</a> -->       
+            <!-- <a class='dropdown-button btn' data-beloworigin="true" href='#' data-activates='dropdown3'>Manter Controle de Pessoa</a>-->        
             <a class='dropdown-button btn' data-beloworigin="true" href='#' data-activates='dropdown4'>Manter Controle de Inquilino</a>        
             <a class='dropdown-button btn' data-beloworigin="true" href='#' data-activates='dropdown6'>Manter Controle de Imovel</a> 
             <a class='dropdown-button btn' data-beloworigin="true" href='#' data-activates='dropdown5'>Manter Controle de Imovel & Inquilino</a>        
@@ -59,7 +59,7 @@
                 <ul id='dropdown3' class='dropdown-content'>
                     <li><a href="../pessoa/consultarPessoa.jsp"> ConsultaPessoa </a></li>
                 </ul>
-            <% } %>
+            <% } %> 
 
             <% if (usu.getTipo().equals("ADM")) { %>
                 <!-- Dropdown1 Structure -->

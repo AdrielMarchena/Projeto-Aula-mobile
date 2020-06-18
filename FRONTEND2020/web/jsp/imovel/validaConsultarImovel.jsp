@@ -29,6 +29,7 @@
                   <th data-field="Id">Id</th>
                   <th data-field="Nome">Nome Proprietario</th>
                   <th data-field="Endereco">Endereco</th>
+                  <th data-field="Valor">Valor Aluguel</th>
                   <th data-field="Excluir">Excluir</th>
                   <th data-field="Alterar">Alterar</th>
               </tr>
@@ -40,6 +41,8 @@
                             <td><%=listaImo.getId()%></td>
                             <td><%=listaImo.getProprietario()%></td>
                             <td><%=listaImo.getEndereco()%></td>
+                            <td><%=listaImo.getValorAluguel()%></td>
+                            
                             <% if (usuLogado.getTipo().equals("ADM")) { %>
                               <td><a href="excluirImovel.jsp?<%=url + listaImo.getId()%>">Excluir</a></td>
                               <td><a href="alterarImovel.jsp?<%=url + listaImo.getId()%>">Alterar</a></td>

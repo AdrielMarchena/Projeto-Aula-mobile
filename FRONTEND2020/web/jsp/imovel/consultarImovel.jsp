@@ -13,7 +13,7 @@
        <div class="container"/>
        <h1>CONSULTAR IMOVEL</h1>
        <form name="consultarImovel" action="validaConsultarImovel.jsp" method="post">
-           Nome: <input type="text" name ="NOME" value=""> <br>
+           Nome do Proprietario: <input type="text" name ="NOME" value=""> <br>
            <input type="submit" name ="Enviar" value="Enviar"> <br>
        </form>
        </div>
